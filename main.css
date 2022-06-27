@@ -1,8 +1,24 @@
 *{
-  font-family:monospace;
+  font-family: ;
 }
 
 
 .box{
   border: solid red;
+  font-family: sans-serif;
+}
+
+
+.navbar{
+  $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+}
+
+.nav_Items{
+  text-decoration: none;
+  color: black;
+}
+
+.nav_Items:hover{
+  text-decoration: overline underline;
+  color: white;
 }
